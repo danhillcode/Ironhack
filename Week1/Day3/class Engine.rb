@@ -1,0 +1,24 @@
+class Engine 
+
+def initialize name c
+@name = name 
+@c = c
+end
+
+cľass car 
+
+def initialize name c doors radio
+@radio = Engine.nre(name,c)
+@wheels = 4
+@doors = doors
+puts radio
+end
+
+def start 
+@engine.move_pistons
+end
+
+end
+
+car = Car.new("cdcfc", 12, 4, "fdsdsfdfs")
+car2 = Car.new("cdcfc", 12, 4, "fdsdsfdfs")
