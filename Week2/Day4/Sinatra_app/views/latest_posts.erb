@@ -1,0 +1,16 @@
+<h1> This is your posts page </h1>
+<ul>
+<% @posts.each do |post| %>
+<h2><%= post.title %></h2>
+<l><%= post.date %></l>
+</ul>
+<%end %>
+
+
+<% @posts.each_with_index do |post, index| %>
+  <ul>
+  <li><a href="/post_details/<%= index %>"><%= post.title %></a> </li>
+      </ul>
+  <% end %>
+
+    <a href="/new_post/"><%= "New post" %></a>
