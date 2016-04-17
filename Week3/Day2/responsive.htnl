@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive</title>
+	<link rel="stylesheet" href="responsive-style.css">
+    <link rel="stylesheet" href="responsive-mediaquery.css">
+</head>
+
+<body>
+<div class="container">
+<h1> Web Development </h1>
+<h2> How is the Web Development going? </h2>
+</div>
+</body>
+
+</html>

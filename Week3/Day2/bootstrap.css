@@ -1,0 +1,37 @@
+bootstrap - image with script
+panel
+nest boxes in other boxes
+{
+    
+    background-color: blue
+}
+
+.container {
+    background-color: lightgrey;
+}
+
+.second_col {
+    background-color: white;
+}
+
+
+.row1 {
+    background-color: pink;
+}
+
+[class*="col-xs-4"] {
+    display: inline;
+    float:left;
+    margin-left: 2px;
+    padding-bottom: 0px;    
+}
+
+h1 {
+    font-size: 15px;
+}
+
+span {
+    
+    color:blue    
+    
+}

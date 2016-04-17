@@ -1,0 +1,69 @@
+body {width: auto;}
+
+header {
+	background-color: blue;
+	height: 50px;
+
+}
+
+
+section { 
+	margin-left: 4%;
+	width: 100%;
+	margin: 
+}
+
+article 
+{
+	width: 23%;
+
+	display: inline-block;
+
+	box-sizing: border-box;
+}
+
+
+
+article img {
+	width: 95%;
+}
+
+
+
+
+
+nav {
+width: 500px;
+margin: auto;
+height: 50px;
+
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+}
+
+nav li:nth-child(1n) {
+	background-color: blue;
+}
+
+nav li:nth-child(2n) {
+	background-color: green;
+}
+
+
+nav a {
+	display: inline-block;
+	box-sizing: border-box;
+	width:100px;
+	height: 100%;
+	border-left: 2px solid #cc3300;	
+}
+
+

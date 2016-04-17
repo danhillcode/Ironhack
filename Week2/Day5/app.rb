@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'pry'
 require 'imdb'
-require_relative './models/movie.rb/'
+
 
 
  get "/movie_search" do 
@@ -10,19 +10,24 @@ require_relative './models/movie.rb/'
 end
 
  get "/movie_result" do 
- 	"Hello World"
+ 	"Hello World!"
 	erb(:movie_result)
 end
 
 
 post "/calculate" do
-binding.pry
+#binding.pry
 	@movie = params[:search_term]
 	@search1 = Imdb::Search.new(@movie)
-	@movies = @search1.movies[0..2].pop
+	@movie_search = @search1.movies[0]
+	@movie2 = @movie_search.poster 
+	
+	@movie_search3 = @search1.movies[8]
+	@movie3 = @movie_search3.poster 
 
-	
-	
+	erb(:movie_result)
+	##redirect "/movie_result"
+end
 
 
 	#counter = 0
@@ -32,6 +37,3 @@ binding.pry
 	#else 
 	#	puts
 	#end
-	redirect "/movie_result"
-end
-
