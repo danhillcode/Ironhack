@@ -1,0 +1,14 @@
+
+function dniLetter( dni ) {
+
+	var lockup = 'TRWAGMYFPDXBNJZSQVHLCKE';
+	var result = '';
+
+		return result;
+}
+
+console.log( dniLetter( 12345678 ) === 'Z');
+console.log( dniLetter( 34667892 ) === 'S');
+console.log( dniLetter( 92234488 ) === 'A');
+
+

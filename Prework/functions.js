@@ -87,49 +87,55 @@ console.log( findLongestWord( ["Red", "Blue", "Green"] ) === 5 );
 
 
 
-//EXERCISE 4
-//
-// Uncomment the exercise code deleting /* and */ chars
-// Now we are going to save the longest length of every array in a new array called array_lengths
-// Open the console and reload the index page to see the result of the code.
+// EXERCISE 4
+
+// //Uncomment the exercise code deleting /* and */ chars
+// //Now we are going to save the 
+//  longest length of every array in a new array called array_lengths
+// // Open the console and reload the index page to see the result of the code.
 // You have to complete the calculateAverage function (it is a few lines below), and it has
-// to return the average of every number in a array instead of the "Not implemented yet" message.
+// to return the average of every number in an array instead of the "Not implemented yet" message.
 
-/*
 
-var array_lengths = [];
-array_lengths.push( findLongestWord( ["Richie", "Joanie", "Greg", "Marcia", "Bobby"]) );
-array_lengths.push( findLongestWord( ["Blanka", "Zangief", "Chun Li", "Guile"] ) );
-array_lengths.push( findLongestWord( ["Red", "Blue", "Green"] ) );
-//<place to add more lines>, read next commented text and you will understand
 
-console.log( "These are the longest lengths of each group: " + array_lengths );
-console.log( calculateAverage( array_lengths ) === 6 && "The average of longest lengths is: " + calculateAverage( array_lengths ))
+// var array_lengths = [];
+// array_lengths.push( findLongestWord( ["Richie", "Joanie", "Greg", "Marcia", "Bobby"]) );
+// array_lengths.push( findLongestWord( ["Blanka", "Zangief", "Chun Li", "Guile"] ) );
+// array_lengths.push( findLongestWord( ["Red", "Blue", "Green"] ) );
+// array_lengths.push( findLongestWord( ["Richie", "Joanie", "Greg", "Marcia", "Bobby"]) );
+// array_lengths.push( findLongestWord( ["Blanka", "Zangief", "Chun Li", "Guile"] ) );
+// array_lengths.push( findLongestWord( ["Red", "Blue", "Green"] ) );
+// //<place to add more lines>, read next commented text and you will understand
 
-function calculateAverage( array )
-{
-	return( "Not implemented yet" )
-}
+// console.log( "These are the longest lengths of each group: " + array_lengths );
+// console.log( calculateAverage( array_lengths ) === 6 && "The average of longest lengths is: " + calculateAverage( array_lengths ))
+
+
+
+// function calculateAverage( array )
+// {
+// 	return( findLongestWord.length )
+// }
 
 // Now add more lengths to the array_lengths. You have to do it where <place to add more lines> is written. 
 // You can use this structure: array_lengths.push( findLongestWord( [<add some elements>] ) );
 // Don't foget to add words to the array. The longer the better!
 // Now reload the page and see how changed the average.
 
-*/
 
 
-//EXERCISE 5
-//
-// Restore the comments marks (/* */) of the previous exercises.
-// Uncomment this exercise code deleting /* and */ chars
-// Now we are going to save the longest length of every array in a new array called array_lengths
-// Open the console and reload the index page to see the result of the code.
-// Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. 
-// As a condition you must use the object freqCounter.
-// Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab").
 
-/*
+EXERCISE 5
+
+Restore the comments marks (/* */) of the previous exercises.
+Uncomment this exercise code deleting /* and */ chars
+Now we are going to save the longest length of every array in a new array called array_lengths
+Open the console and reload the index page to see the result of the code.
+Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. 
+As a condition you must use the object freqCounter.
+Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab").
+
+
 
 function charFreq( string ) {
 	freqCounter = {};
@@ -152,7 +158,7 @@ console.log( counter['s'] === 1 );
 console.log( counter.d === 1 );
 console.log( counter['f'] === 1 );
 
-*/
+
 
 
 //BONUS EXERCISE
