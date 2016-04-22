@@ -1,0 +1,11 @@
+<h1>Welcome to the login page</h1>
+<p>
+<%= form_tag("/input", method: "post") do %>
+  <%= label_tag(:q, "Name:") %>
+  <%= text_field_tag(:q) %>
+ 
+  <%= label_tag(:q, "Email:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Enter to win") %>
+</p>
+<% end %>
