@@ -1,0 +1,16 @@
+
+ <h1>Show this Sandwich</h1>
+
+  <ul>
+  <li> The name is  <%= @view.name %> </li>
+  <li> The bread type is <%= @view.bread_type %> </li>
+  
+
+	<% @ingredients.each do |item| %>
+      
+    <li> The ingredients are <%= item.name %> </li>
+ 	<% end %>
+
+
+
+  </ul>

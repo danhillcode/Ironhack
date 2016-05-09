@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<%= button_to 'Tinderitis', message_path, method: :post %>
+
+
+<div class="panel panel-default">
+  <div class="panel-body">Welcome to the Concert Finder!</div>
+</div>
+
+<h2>
+
+<ol> 
+	<em>
+		<% @concert.each do |concert|  %>
+		<li>
+		<% if concert.artist? %>
+	 	<%= link_to concert.artist, show_path(concert.id) %> 
+		<% end %>
+		
+		</li>
+		<% end %>
+	</em>
+</ol>
+
+
+
+
+
+
+</h2>
+
+<h2>
+<%= link_to "Create a new concert", new_path %>
+</h2>
+
+<div class="panel panel-default">
+  <div class="panel-body">Hope you find what you are looking for :)</div>
+</div>
+
+<button type="button" class="btn btn-default">Tinder Like</button>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+<style>
+body {
+    background-color: beige;
+}
+
+header {
+    color: maroon;
+    margin-left: 40px;
+    text-align: center;
+}
+</style>
+
+</html>

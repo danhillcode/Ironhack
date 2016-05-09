@@ -4,9 +4,14 @@ get '/index' => 'contacts#index'
 
 get '/new' => 'contacts#new' 
 
+
+
+
 post '/contacts' => "contacts#create" 
 
 get '/contacts' => 'contacts#index'
+
+
 
 get '/contacts/show/:id' => 'contacts#show', as: :contact_show
 

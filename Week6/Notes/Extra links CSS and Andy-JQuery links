@@ -1,0 +1,27 @@
+React
+tristanwinters1
+4:23 PM http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/
+React.js Introduction For People Who Know Just Enough jQuery To Get By (37KB)
+
+CSS/JQuery
+http://learn.shayhowe.com/advanced-html-css/
+
+@mariobrassescogarcia: if you are sticking with bootstrap try http://startbootstrap.com/
+Start Bootstrap
+Free Bootstrap Themes and Templates
+Free HTML starter themes and templates for Bootstrap - up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap! (6KB)
+
+
+Getting ready for the final project!
+tristanwinters1
+3:24 PM Some good reading for html, css, js for those that still aren’t sure about responsive and other concepts. http://learn.shayhowe.com/advanced-html-css/
+andy
+5:18 PM Some (maybe) helpful links for you final projects:- display locations on ​Google Maps​ README:
+ https://github.com/mediafinger/Locations
+ (please :star: this repo, if you like it)- implement ​pagination​ on your pages
+ https://github.com/amatsuda/kaminari
+ (easy to use flexible gem with a good README)- ​file uploads, image resizing​, clipping, converting
+ https://github.com/carrierwaveuploader/carrierwave
+ (You will need the ImageMagick or MiniMagick library)- Client-side ​Form Validations​ to avoid server response time
+ https://github.com/DavyJonesLocker/client_side_validations
+ (direct feedback to users while filling out a form)But don't go too wild with gems and extra feature - remember to focus on the core of your idea and leave everything else for later (when you have time left over).

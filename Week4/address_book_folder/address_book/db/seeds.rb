@@ -11,3 +11,12 @@ Contact.create(name: 'Bob', address: 'Barca', phone_number: '112543', email_addr
 Contact.create(name: 'Sumo-Man', address: 'Barca', phone_number: '113456', email_address: 'Sumoman@123.com')
 Contact.create(name: 'Taylor', address: 'Barca', phone_number: '111768', email_address: 'Taylor@123.com')
 
+Event.create(name: 'A')
+Event.create(name: 'B')
+Event.create(name: 'C')
+
+User.create(user_id: 1)
+User.create(user_id: 2)
+User.create(user_id: 3)
+
+ 

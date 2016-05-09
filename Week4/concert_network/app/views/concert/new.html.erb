@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<header><strong> Thanks for contributing to Concert Finder! </strong>
+<h1><em>Add a new concert</em></h1>
+<img src="assets/fes.jpeg" alt="Mountain View"  style="width:200px;height:120px;">
+
+</header>
+
+<body>
+
+
+
+<h1>Add a concert</h1>
+<%= form_for @concertForm , url: {action: "create"} do |f| %>
+  <%= f.label :concert %>
+  <%= f.text_field :concert %>
+
+  <%= f.label :artist %>
+  <%= f.text_area :artist %>
+
+  <%= f.label :venue %>
+  <%= f.text_area :venue %>
+
+  <%= f.label :artist %>
+  <%= f.text_area :artist %>
+
+  <%= f.label :city %>
+  <%= f.text_area :city %>
+  
+  <%= f.label :date %>
+  <%= f.text_area :date %>
+  
+  <%= f.label :price %>
+  <%= f.text_area :price %> 
+
+  <%= f.label :description %>
+  <%= f.text_area :description %>
+
+  <%= f.button %>
+<% end %>
+
+</body>
+
+
+
+
+</html>

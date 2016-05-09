@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
 
   get '/input' => 'user#input'
+  post '/input' => 'user#create' 
+  get '/new_user' => 'user#create'
 
-  post '/input' => 'create'
+  resources :user
 
 
   # The priority is based upon order of creation: first created -> highest priority.

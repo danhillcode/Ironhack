@@ -1,21 +1,131 @@
-<h1>Posts on the page</h1>
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="contacts.scss">
+    </head>
 
-<h2>
-	<ol> <em>
-	<% @contacts.sort_by{ |contact| contact.name }.each do  |contact|  %>
-	
-	<li>	
-	<%= link_to contact.name, contact_show_path(contact.id) %>
-	</li>
+    <body>
+        <%= image_tag("logo2.png",:size => "250x100", :alt => "our logo") %>
+        <!-- <div class="row">
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+        <div class="col-md-1">.col-md-1</div>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <p class="bg-primary">...</p>
+        	  <h1 class="text-center"><u>Habibi English</u></h1>
+        	  <p class="text-center"><small>Providing quality education to the kingdom of Saudi Arabia</small></p>
+        	
+         </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <!-- <div class="col-md-4"><h3>
+      	<ol> <em>
+      	<% @contacts.sort_by{ |contact| contact.name }.each do  |contact|  %>
+      	
+      	<li>	
+      	<%= link_to contact.name, contact_show_path(contact.id) %>
+      	</li>
+      	<% end %>
+      	 </em></ol>
+      <%= link_to 'Create new post', new_path %>
+
+      </h3>
+      </div> -->
+      </div>
+
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-9 col-md-push-3"><p><em>
+                
+            'Habibi English' is a digital education platform that will use the latest 
+            technology available to improve and transform educational experiences in the 
+            Arab world. The main aim of the platform is to increase the access to English
+            teachers for students in Arab countries, mainly females that lack access to
+            quality western teachers. The benefit of using our services is that we guarantee
+            culturally sensitive lessons, all teachers are trained and respect the Muslim faith.
+            We have respectful teachers that will provide high quality 
+            lessons for students. Also, key areas such as pronunciation, vocabulary and 
+            conversational fluency can be practised and improved. The classes are live and 
+            individual feedback can be provided to all students so that students can increase 
+            their fluency much quicker than any other style of class. Another benefit of using
+            this platform is the ability to share class costs between users  which makes it a
+            cheaper than other providers and students can have classes with their friends or 
+            family members. Whatever you need English for whether it be for making friends when
+            travelling, improving job prospects or gaining entry to international education
+            establishments - we can help you, join is today.
+
+              </em></p>
+        </div>
 
 
-	
-	<% end %>
-
-	 </em></ol>
 
 
 
-<%= link_to 'Create new post', new_path %>
 
-</h2>
+
+
+
+        <div class="col-md-3 col-md-pull-9">.</div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="row">
+        <div class="col-sm-12">
+          
+          <div class="row-fluid">
+            <div class="col-xs-1 col-sm-1"></div>
+            <div class="col-xs-3 col-sm-3">
+              <h4 class="text-left"><%= link_to "About us" %></h4>
+            </div>
+            <div class="col-xs-4 col-sm-4">
+              <h4 class="text-center"><%= link_to "Staff members & Associates" %></h4>
+            </div>
+            <div class="col-xs-3 col-sm-3">
+              <h4 class="text-right"><%= link_to "Sign up for classes" %></h4>
+            </div>
+      	
+            <div class="col-xs-1 col-sm-1"></div>
+          </div>
+        </div>
+      </div>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+

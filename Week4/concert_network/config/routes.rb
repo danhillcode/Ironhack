@@ -1,4 +1,34 @@
 Rails.application.routes.draw do
+
+  post '/message' => 'users#message'
+  #resources :concert
+
+   get '/index' => 'concert#index'
+
+
+   post '/create' => "concert#create" 
+
+
+   get '/index/show/:id' => 'concert#show', as: :show
+
+   get '/show' => 'concerts#show'
+
+   get '/new' => 'concert#new'
+
+
+
+
+
+
+
+   # get '/concert' => "concert#index"
+
+
+
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

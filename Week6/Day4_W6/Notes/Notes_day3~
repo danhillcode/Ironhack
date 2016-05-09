@@ -1,0 +1,69 @@
+add_reference: http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_reference
+andy
+12:50 PM http://guides.rubyonrails.org/association_basics.html#belongs-to-association-reference
+andy
+2:54 PM What is better than a Javascript Single-Page-App with a Rails backend?
+2:54
+Just a Rails app.
+2:54
+https://www.betterment.com/resources/inside-betterment/engineering/server-javascript-a-single-page-app-toa-single-page-app/?utm_content=646556
+Betterment
+Server JavaScript: A Single-Page App To…A Single-Page App - Betterment
+Betterment engineers recently migrated a single-page backbone app to a server-driven Rails experience. (43KB)
+April 29th at 3:44 PM
+llorenc
+3:24 PM :thinking_face:
+3:24
+don't let @andy fool you!
+3:24
+haha
+andy
+3:29 PM Ok, then list 3 reasons why you need / should build 2 apps instead of one!
+3:30
+This could serve as a checklist to decide when to opt for the overhead on work and complexity.
+llorenc
+3:44 PM haha
+3:44
+I agree SPA is not necessary in a lot of projects
+3:45
+But they are so cool to build!
+andy
+3:57 PM :joy_cat:  you frontends just want to have your new toys to play around with :joystick:
+3:57
+For tomorrow you will all need an account at heroku.
+Please create one, if you haven't yet.https://devcenter.heroku.com/
+Heroku Dev Center
+Learn about building, deploying and managing your apps on Heroku.
+3:58
+You will use it to deploy your apps to the www :rocket:
+andy
+4:08 PM As you will deploy your auctions exercise tomorrow, it will have to be switched from sqlite to postgres. If you find the time you could already try to switch to the "pg" gem and to create the new postgres database (+migrating + seeding).
+mark
+4:14 PM There is live coding of rails at codeac ademy
+mark
+4:15 PM
+tristanwinters1
+4:23 PM http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/
+React.js Introduction For People Who Know Just Enough jQuery To Get By (37KB)
+mariobrassescogarcia
+5:11 PM Just found the best Linkedin profile ever. It's from a friend of mine, you could check it to get some ideas on how important it is to work your online presence (she sells herself super well): https://www.linkedin.com/in/chantalmarin?authType=name&authToken=32_C&trk=hp-feed-member-name
+collado
+5:19 PM Hey guys, our friends at http://www.jobsbcn.com/ have released a new app to calculate tech salaries
+JobsBCN
+All Startup Jobs in Barcelona. (6KB)
+5:19
+worth checking out... just saying..
+5:19
+http://www.techsalarycalculator.com/
+JobsBCN
+All Startup Jobs in Barcelona. (6KB)
+andy
+8:22 PM That is the worst about Barcelona. The salaries are incredibly low.
+8:24
+In case you wonder how much XING would pay, I assume the span for a Ruby developer is from 35k - 60k
+(bootcamp finishers might start up to 5k below, very experienced and good devs might go 5k up) (edited)
+tristanwinters1
+8:27 PM https://www.youtube.com/watch?v=_-CD_5YhJTA
+YouTube
+Programming with Mosh
+Angular 2 Tutorial for Beginners: Learn Angular 2 from Scra

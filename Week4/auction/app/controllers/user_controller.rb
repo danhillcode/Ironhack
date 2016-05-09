@@ -1,7 +1,8 @@
 class UserController < ApplicationController
 
-	def input
+	def create
 	
+	render 'new_user'
 	end
 	
 end
